@@ -1,2 +1,1 @@
-# Web-Template
- sadə web səhifələr
+# Sadə web səhifələr
