@@ -1,0 +1,48 @@
+@import 'header';
+@import 'hero';
+@import 'jobcategories';
+@import 'featuredjobs';
+@import 'customers';
+@import 'newsarticles';
+@import 'footer';
+
+
+* a{
+    text-decoration: none;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+*{
+    font-family: 'Jost', sans-serif;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+
+
+
+.top{
+    transition: 1s;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #ecedf2;
+    color: #1967d2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    &:hover{
+        background-color: #1967d2;
+        color: #fff;
+        cursor: pointer;
+       
+    }
+}

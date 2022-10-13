@@ -1,0 +1,118 @@
+.sec5{
+    width:85%;
+    height: 650px;
+    margin:0 auto;
+    margin-top: 120px;
+    padding-bottom: 120px;
+    .case{
+        width:100%;
+        height:210px;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+        justify-content:space-around;
+        margin-bottom: 30px;
+
+        .projects{
+            width:175px;
+            height:35px;
+            background-color:#f5f8fa;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            h4{
+
+                font-size:16pxpx;
+                font-family: sans-serif;
+                color:#181818;
+                font-weight: 600;
+                color:#FB5343;
+                  
+
+            }
+           
+        }
+        h1{
+
+            font-size:44px;
+            font-family: sans-serif;
+            color:#181818;
+            font-weight: 600;
+            
+        }
+        p{
+           
+            font-size:18px;
+            font-family: sans-serif;
+            color:#65676b;
+            line-height: 30px;
+            text-align:center;
+            
+            
+            
+            
+        }
+    }
+
+
+    .con{
+        width:100%;
+        height:400px;
+        display: flex;
+        justify-content: space-around;
+
+      .qutu{
+          background-color: #f5f8fa;
+        width:390px;
+        height: 370px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+       
+        .img{
+            width:390px;
+            height: 220px;
+            img{
+                width:390px;
+                height: 220px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+
+        }
+        .txt{
+            width:330px;
+            height: 90px;
+            margin: 30px;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            justify-content: space-around;
+
+            h2{
+                font-size: 14px;
+                color: #65676b;
+                font-family: sans-serif;
+            }
+            h1{
+                font-size: 20px;
+                color: #181818;
+                font-family: sans-serif;
+                font-weight: bold;
+                line-height:30px;
+                cursor: pointer;
+                &:hover{
+                    color: #059dff;
+                    transition: 1s;
+                }
+            }
+        }
+      }
+
+    }
+
+}

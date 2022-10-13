@@ -1,0 +1,44 @@
+.footer{
+    background-color: #44425a;
+
+
+
+    #touch{
+        color: #ff6600;
+        margin-bottom:20px;
+    }
+
+    #news{
+        color: #ff6600;
+        margin-bottom:20px;
+    }
+
+    #courses{
+        color: #ff6600;
+        margin-bottom:20px;
+    }
+
+    #sign{
+        background-color: #ff6600;
+        
+    }
+
+
+    #domina{
+        color: #ff6600;
+        cursor: pointer;
+
+        &:hover{
+            color: #c55d17;
+            text-decoration: underline;
+        }
+    }
+    #codex{
+        color: #ff6600;
+        cursor: pointer;
+        &:hover{
+            color: #c55d17;
+            text-decoration: underline;
+        }
+    }
+}

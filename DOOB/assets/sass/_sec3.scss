@@ -1,0 +1,254 @@
+.sec3{
+    width:100%;
+    height:2345px;
+    margin-top: 120px;
+
+
+    .case{
+        width:100%;
+        height:210px;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+        justify-content:space-around;
+        margin-bottom: 30px;
+
+        .projects{
+            width:175px;
+            height:35px;
+            background-color:#f5f8fa;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            h4{
+
+                font-size:16pxpx;
+                font-family: sans-serif;
+                color:#181818;
+                font-weight: 600;
+                color:#FB5343;
+                  
+
+            }
+           
+        }
+        h1{
+
+            font-size:44px;
+            font-family: sans-serif;
+            color:#181818;
+            font-weight: 600;
+            
+        }
+        p{
+           
+            font-size:18px;
+            font-family: sans-serif;
+            color:#65676b;
+            line-height: 30px;
+            text-align:center;
+            
+            
+            
+            
+        }
+    }
+
+    .step-ler{
+        width:85%;
+        height:1335px;
+        border-left:4px solid #eaeaf1;
+        margin: 0 auto;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        justify-content:space-evenly;
+        margin-left:100px;
+        .step{
+            width:950px;
+            height:520px;
+            padding:50px;
+          
+            display:flex;
+            background-color: #f5f8fa;
+            border-radius:10px;
+            margin:25px;
+            
+
+            .sol{
+                width:450px;
+                height:520px;
+                margin:0 15px 0 15px;
+                
+               
+                line-height:25px;
+                h6{
+                    font-size:14px;
+                    font-family: sans-serif;
+                    color: #65676b;
+                    margin-bottom: 30px;
+
+                }
+                h1{
+                   
+                    width:450px;
+                    height:160px;
+                    font-size:44px;
+                    font-family: sans-serif;
+                    color: #181818;
+                    font-weight: bold; 
+                    line-height:50px;
+
+                }
+
+                p{
+                   
+                    font-size:16px;
+                    font-family: sans-serif;
+                    color: #65676b;
+                    margin-top:30px;
+                    margin-bottom: 30px;
+                   
+
+                }
+
+                .text{
+                    width: 480px;
+                    height:125px;
+                    display:flex;
+                    
+                    align-items:center;
+                  
+                   
+
+                    .gain{
+                       width:210px;
+                       height:90px;
+                       line-height:25px;
+                       margin-right:15px;
+                       display:flex;
+                       flex-direction: column;
+                      justify-content:center;
+                     justify-content: space-around;
+
+                       h2{
+                        font-size:18px;
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        color: #181818;
+                       }
+                       p{
+                        font-size:16px;
+                        font-family: sans-serif;
+                       
+                        color: #65676b;
+                       }
+                    }
+
+                }
+                .button{
+        
+                                   
+                    width:220px;
+                    height:60px;
+                    border-radius:58px;
+                   background-color: #e61414;
+                    color:#fff;
+                    font-size:17px;
+                    font-family: sans-serif;
+                    font-weight:500;
+                    background-color: transparent; 
+                    background: linear-gradient(95deg,#059dff 15%,#6549d5 45%,#e33fa1 75%,#fb5343) 95%/200% 100%;
+                    cursor: pointer;
+                    display:flex;
+                    justify-content:center;
+                    align-items: center;
+                    margin-top:10px;
+                    a{
+                        color: #fff;
+                        text-decoration:none;
+                    }
+                   }
+            }
+        }
+
+        .sag{
+            width: 450px; 
+            height:520px;
+            margin:0 15px 0 15px;
+            img{
+               width: 450px; 
+              height:520px;
+              border-radius:8px;
+            }
+        }
+    
+
+
+
+}
+ 
+.komp-rsm{
+    width:85%;
+    height:530px;
+    
+    margin:120px auto 120px auto;
+    background-image: url(../img/bg-image-4.jpg);
+    border-radius:10px;
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+   
+    .video{
+     width:100%;
+    height:530px;
+    border-radius:10px;
+    background-color:rgba($color: #000, $alpha: .7);
+    display: flex;
+    flex-direction: column;
+    
+    .icon{
+        width:70px;
+        height: 70px;
+        border-radius: 35px;
+        background-color: transparent; 
+          background: linear-gradient(95deg,#059dff 15%,#6549d5 45%,#e33fa1 75%,#fb5343) 95%/200% 100%;
+          display:flex;
+          justify-content:center;
+          align-items: center;
+          transform: translate(60px,320px);
+          cursor: pointer;
+         
+          i{
+              color:#fff;
+              font-size: 30px;
+          }
+
+    }
+    h1{
+        color: #fff;
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: bold;
+        transform: translate(60px,335px);
+        
+       
+    }
+
+    }
+ 
+
+
+
+}
+.xett3{
+    width:1300px;
+    height:1px;
+    background-color: #65676b;
+    margin: 0 auto;
+    margin-top:120px;
+    
+}
+}

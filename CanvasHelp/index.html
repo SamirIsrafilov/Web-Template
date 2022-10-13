@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/sass/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="position-sticky top-0 bg-white">
+        <nav class="navbar navbar-expand-lg  ">
+            <div class="container-fluid mx-4">
+                <a class="navbar-brand " href="#"><img src="assets/img/canvasforum.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse border-start border-end" id="navbarSupportedContent"
+                    style="height:80px;">
+                    <ul class="navbar-nav ms-auto mb-2 ms-2 mb-lg-0" id="menu">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active fw-semibold" aria-current="page" href="#" id="home">Home</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link fw-semibold" href="#">Topic Page</a>
+                        </li>
+
+                        <li class="nav-item mx-2">
+                            <a class="nav-link fw-semibold" href="#">Create</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link fw-semibold " href="#">Profile</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link fw-semibold" href="#">Search Page</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link fw-semibold" href="#">Sign In Page</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="d-flex justify-content-center align-items-center m-0">
+                    <li class="list-unstyled mx-3 fs-5"><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li class="list-unstyled mx-3 fs-5"> <i class="fa-solid fa-bell "></i></li>
+                    <li class="list-unstyled mx-3 fs-5"><img src="assets/img/user.png" alt=""
+                            style="width:32px; height:32px;"></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="hero">
+
+
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pt-5">
+                    <p class="fs-5">Hello, <u class="fw-bold">SemiColonWeb</u></p>
+                    <h2 id="canva" class="my-5">Welcome to our<br> Canvas Community.</h2>
+
+                    <div class="input-group mb-3  ">
+
+                        <input type="text" class="form-control fs-5 border-0 py-2 px-3"
+                            placeholder="Search Your Topics.." aria-label="Username" aria-describedby="basic-addon1">
+                        <span class="input-group-text border-0 py-2 px-3" id="basic-addon1"><i
+                                class="fa-solid fa-magnifying-glass fs-5"></i></span>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block my-4 ">
+                        <button class="btn py-2 px-4 text-white fs-5 fw-semibold mx-1" type="button" id="topic"><i
+                                class="fa-solid fa-file-medical me-2"></i>Create A New Topic</button>
+                        <button class="btn py-2 px-4  fs-5 fw-semibold mx-1 " id="browse" type="button"><i
+                                class="fa-solid fa-bars me-2"></i>Browse All Topics</button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 pt-5">
+                    <img src="assets/img/hero.svg" alt="" class="card-img" id="picture">
+                </div>
+            </div>
+        </div>
+        <div id="hero-sub" class="py-5 px-5">
+            <a class="text-white mx-4 fs-5"><i class="fa-solid fa-user-group mx-2"></i> <span class="text-warning">12462
+                </span> Members Registered.</a>
+            <a class="text-white mx-4 fs-5"><i class="fa-solid fa-comment mx-2"></i><span
+                    class="text-warning">340333</span> Posts Created.</a>
+
+
+        </div>
+
+    </section>
+
+
+    <div class="latest py-5 ">
+        <div class="text-center">
+            <h3 id="discuss">Latest Discussions</h3>
+            <button class="btn py-2 px-4  fs-6 fw-semibold mx-1 my-3" type="button" id="creat">CREATE A NEW
+                TOPIC</button>
+        </div>
+
+        <div class="container px-5 my-5">
+            <div class="row py-4 px-5 border-top border-warning">
+                <div class="col-sm-8">
+                    <h3 class="fs-3" id="jump">Jump In Content When Using Include-Header Class</h3>
+                    <ul class="d-flex align-items-center p-0">
+                        <li class="list-unstyled d-flex align-items-center justify-content-center" id="mins"><a
+                                class="  text-decoration-none  me-4 " href="#">40 mins ago</a></li>
+                        <li class="list-unstyled d-flex align-items-center justify-content-center " id="replies">
+                            <i class="fa-solid fa-circle "></i>
+                            <a class="  text-decoration-none me-4" href="#">4 Replies</a>
+                        </li>
+                        <li class="list-unstyled  d-flex align-items-center justify-content-center " id="progress">
+                            <i class="fa-solid fa-circle "></i>
+                            <a class=" px-2 text-muted text-decoration-none rounded-1  me-4 bg-info">In Progress</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 d-flex justify-content-center align-items-center" id="resm">
+                    <img src="assets/img/user.png" alt="" style="width:36px; height:36px;" id="res1">
+
+                    <img src="assets/img/2.jpg" alt="" style="width:36px; height:36px;" class="rounded-circle   "
+                        id=res2>
+
+                    <img src="assets/img/3.jpg" alt="" style="width:36px; height:36px;" class="rounded-circle "
+                        id="res3">
+                </div>
+            </div>
+
+            <div class="row py-4 px-5 border-top border-warning">
+                <div class="col-sm-8">
+                    <h3 class="fs-4" id="jump">Open sub-menu touching menu-item name, instead of sub-menu-trigger only
+                        (mobile)</h3>
+                    <ul class="d-flex align-items-center p-0">
+                        <li class="list-unstyled d-flex align-items-center justify-content-center" id="mins"><a
+                                class="  text-decoration-none  me-4 " href="#">3 days ago</a></li>
+                        <li class="list-unstyled d-flex align-items-center justify-content-center " id="replies">
+                            <i class="fa-solid fa-circle "></i>
+                            <a class="  text-decoration-none me-4" href="#">1 Replies</a>
+                        </li>
+                        <li class="list-unstyled  d-flex align-items-center justify-content-center " id="progress">
+                            <i class="fa-solid fa-circle "></i>
+                            <a class=" px-2 text-muted text-decoration-none rounded-1  me-4 bg-info">In Progress</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 d-flex justify-content-center align-items-center" id="resm">
+                    <img src="assets/img/user.png" alt="" style="width:36px; height:36px;" id="res1">
+
+                    <img src="assets/img/2.jpg" alt="" style="width:36px; height:36px;" class="rounded-circle   "
+                        id=res2>
+
+
+                </div>
+            </div>
+
+            <div class="row py-4 px-5 border-top border-bottom border-warning">
+                <div class="col-sm-8">
+                    <h3 class="fs-3" id="jump">Portfolio Overlay Slide fadein fadeout</h3>
+                    <ul class="d-flex align-items-center p-0">
+                        <li class="list-unstyled d-flex align-items-center justify-content-center" id="mins"><a
+                                class="  text-decoration-none  me-4 " href="#">7 days ago</a></li>
+                        <li class="list-unstyled d-flex align-items-center justify-content-center " id="replies">
+                            <i class="fa-solid fa-circle "></i>
+                            <a class="  text-decoration-none me-4" href="#">4 Replies</a>
+                        </li>
+                        <li class="list-unstyled  d-flex align-items-center justify-content-center " id="progress">
+                            <i class="fa-solid fa-circle "></i>
+                            <a
+                                class=" px-2 text-muted text-decoration-none rounded-1  me-4 bg-success bg-opacity-75">Solved</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 d-flex justify-content-center align-items-center" id="resm">
+                    <img src="assets/img/user.png" alt="" style="width:36px; height:36px;" id="res1">
+
+                    <img src="assets/img/2.jpg" alt="" style="width:36px; height:36px;" class="rounded-circle   "
+                        id=res2>
+
+                    <img src="assets/img/3.jpg" alt="" style="width:36px; height:36px;" class="rounded-circle "
+                        id="res3">
+
+                    <img src="assets/img/1.jpg" alt="" style="width:36px; height:36px;" class="rounded-circle "
+                        id="res4">
+
+                </div>
+            </div>
+
+            <ul class="d-flex  align-items-center py-3 p-0  " id="list">
+                <li
+                    class="list-unstyled py-2 px-3 ms-auto d-flex justify-content-center align-items-center  rounded-start">
+                    <a href="" class="text-decoration-none  "><i class="fa-solid fa-angles-left "></i></a>
+                </li>
+                <li class="list-unstyled py-2 px-3 d-flex justify-content-center align-items-center " id="one"><a
+                        href="" class="text-decoration-none ">1</a></li>
+                <li class="list-unstyled py-2 px-3 p-2 d-flex justify-content-center align-items-center "><a href=""
+                        class="text-decoration-none ">2</a></li>
+                <li class="list-unstyled py-2 px-3 p-2 d-flex justify-content-center align-items-center "><a href=""
+                        class="text-decoration-none ">3</a></li>
+                <li class="list-unstyled py-2 px-3 p-2 d-flex justify-content-center align-items-center "><a href=""
+                        class="text-decoration-none ">4</a></li>
+                <li class="list-unstyled py-2 px-3 p-2 d-flex justify-content-center align-items-center"><a href=""
+                        class="text-decoration-none ">5</a></li>
+                <li class="list-unstyled py-2 px-3 p-2 d-flex justify-content-center align-items-center rounded-end"><a
+                        href="" class="text-decoration-none "><i class="fa-solid fa-angles-right "></i></a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+
+
+    <section class="document py-4">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <img src="assets/img/doc.svg" class="card-img" alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <h1 class="mb-4">Our Documentation</h1>
+                    <p class="lh-lg mb-5">Continually leverage existing reliable users without seamless e-commerce.<br>
+                        Professionally mesh
+                        interoperable solutions rather than highly efficient<br> infrastructures. Monotonectally
+                        administrate
+                        tactical functionalities.</p>
+                    <button class="btn py-2 px-4 text-white fs-5 fw-semibold mx-1" type="button" id="view"><i
+                            class="fa-solid fa-file-medical me-2"></i>View Documentation</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="most my-5 ">
+
+        <div class="text-center">
+            <h3 id="helpful">Most Helpful Members</h3>
+            <p id="mesh" class="py-3">Without seamless e-commerce professionally mesh</p>
+        </div>
+
+
+        <div class="container px-5 ">
+            <div class="row container px-5 ">
+                <div
+                    class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center my-5  ">
+                    <img src="assets/img/most1.jpg" alt="" style="width:80px; height:80px;" class="rounded-circle"> <a
+                        href="#" class="text-dark text-decoration-none">
+                        Jim Séchen</a>
+                </div>
+
+                <div
+                    class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center my-5 ">
+                    <img src="assets/img/most2.jpg" alt="" style="width:80px; height:80px;" class="rounded-circle"> <a
+                        href="#" class="text-dark text-decoration-none">
+                        Jim Séchen</a>
+                </div>
+
+                <div
+                    class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center my-5 ">
+                    <img src="assets/img/most3.jpg" alt="" style="width:80px; height:80px;" class="rounded-circle"> <a
+                        href="#" class="text-dark text-decoration-none">
+                        Jim Séchen</a>
+                </div>
+
+                <div
+                    class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center my-5 ">
+                    <img src="assets/img/most4.jpg" alt="" style="width:80px; height:80px;" class="rounded-circle"> <a
+                        href="#" class="text-dark text-decoration-none">
+                        Jim Séchen</a>
+                </div>
+
+                <div
+                    class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center  my-5">
+                    <img src="assets/img/most5.jpg" alt="" style="width:80px; height:80px;" class="rounded-circle"> <a
+                        href="#" class="text-dark text-decoration-none">
+                        Jim Séchen</a>
+                </div>
+
+                <div
+                    class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center my-5 ">
+                    <img src="assets/img/most6.jpg" alt="" style="width:80px; height:80px;" class="rounded-circle"> <a
+                        href="#" class="text-dark text-decoration-none">
+                        Jim Séchen</a>
+                </div>
+
+                <div
+                    class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center  my-5">
+                    <img src="assets/img/most7.jpg" alt="" style="width:80px; height:80px;" class="rounded-circle"> <a
+                        href="#" class="text-dark text-decoration-none">
+                        Jim Séchen</a>
+                </div>
+
+                <div
+                    class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center  my-5">
+                    <img src="assets/img/most8.jpg" alt="" style="width:80px; height:80px;" class="rounded-circle"> <a
+                        href="#" class="text-dark text-decoration-none">
+                        Jim Séchen</a>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <footer class="py-5">
+
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb-3">
+
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>Home</a></li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>About</a></li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>Support</a></li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb-3">
+
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>Shop</a></li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>Portfolio</a></li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>Blog</a></li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>Events</a></li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>Forums</a></li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb-3">
+
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>Corporate</a></li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>Agency</a></li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>eCommerce</a></li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>Personal</a></li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>One Page</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-2 mb-3">
+
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>Corporate</a></li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>Agency</a></li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>eCommerce</a></li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>Personal</a></li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-white text-opacity-75 fs-6"><i
+                                        class="fa-solid fa-angle-right me-2"></i>One Page</a></li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4  mb-3 text-end">
+
+                        <h5 class="text-white text-opacity-50 fs-6">Call Us:</h5>
+                        <h2 class="text-white text-opacity-75 fs-4 ">+(1) 22 55412474</h2>
+
+                        <ul class="d-flex justify-content-end my-4" id="sosial">
+                            <li class="list-unstyled   rounded-1 d-flex justify-content-center align-items-center mx-1">
+                                <a href="" class="text-white"><i class="fa-brands fa-facebook-f fs-6"></i></a>
+                            </li>
+                            <li class="list-unstyled  rounded-1 d-flex justify-content-center align-items-center mx-1 ">
+                                <a href="" class="text-white"><i class="fa-brands fa-delicious fs-6"></i></a>
+                            </li>
+                            <li class="list-unstyled  rounded-1 d-flex justify-content-center align-items-center mx-1 ">
+                                <a href="" class="text-white"><i class="fa-brands fa-paypal fs-6"></i></a>
+                            </li>
+                            <li class="list-unstyled  rounded-1 d-flex justify-content-center align-items-center mx-1 ">
+                                <a href="" class="text-white"><i class="fa-brands fa-instagram fs-6"></i></a>
+                            </li>
+                        </ul>
+
+                        <p class="text-white text-opacity-50 fs-6">All Rights Reserved<br>
+                            © 2020 by SemiColonWeb</p>
+
+
+                    </div>
+                </div>
+
+
+            </footer>
+        </div>
+    </footer>
+
+
+
+
+    <a class="top " href="#"><i class="fa-solid fa-angle-up "></i></a>
+    <a class="gear " href="#"><i class="fa-solid fa-gears"></i></a>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

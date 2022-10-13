@@ -1,0 +1,37 @@
+.hero{
+    
+    background-color: #f9be79;
+
+
+    #canva{
+        font-size:56px;
+        color: #2f2e41;
+        font-weight: bold;
+    }
+
+    #hero-sub{
+        background-color: #2f2e41;
+
+        
+    }
+
+    #topic{
+        background-color: #2f2e41;
+        border:2px solid #2f2e41;
+        &:hover{
+            background-color:#563b1e;
+        }
+    }
+    
+    #browse{
+        border:2px solid #2f2e41;
+        color: #2f2e41;
+
+        &:hover{
+            background-color: #2f2e41;
+            color: #fff;
+        }
+    }
+   
+}
+

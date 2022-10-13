@@ -1,0 +1,18 @@
+header{
+    #menu{
+       #home{
+           color: #f9be79;
+           text-decoration: underline;
+       }
+        li{
+            a{
+                color: #444444 ;
+                &:hover{
+                    text-decoration:underline;
+                    color: #f9be79;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+}

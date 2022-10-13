@@ -1,0 +1,209 @@
+header #menu #home {
+  color: #f9be79;
+  text-decoration: underline;
+}
+header #menu li a {
+  color: #444444;
+}
+header #menu li a:hover {
+  text-decoration: underline;
+  color: #f9be79;
+  transition: 0.5s;
+}
+
+.hero {
+  background-color: #f9be79;
+}
+.hero #canva {
+  font-size: 56px;
+  color: #2f2e41;
+  font-weight: bold;
+}
+.hero #hero-sub {
+  background-color: #2f2e41;
+}
+.hero #topic {
+  background-color: #2f2e41;
+  border: 2px solid #2f2e41;
+}
+.hero #topic:hover {
+  background-color: #563b1e;
+}
+.hero #browse {
+  border: 2px solid #2f2e41;
+  color: #2f2e41;
+}
+.hero #browse:hover {
+  background-color: #2f2e41;
+  color: #fff;
+}
+
+.latest #discuss {
+  font-size: 56px;
+  font-weight: bold;
+  color: #2f2e41;
+}
+.latest #creat {
+  color: #333333;
+  border: 2px solid #333333;
+}
+.latest #creat:hover {
+  color: #fff;
+  background-color: #333333;
+  transition: 0.5s;
+}
+.latest #jump {
+  font-size: 22px;
+  color: #2f2e41;
+}
+.latest #jump:hover {
+  text-decoration: underline;
+  transition: 0.5s;
+}
+.latest #mins a {
+  color: #999999;
+}
+.latest #mins a:hover {
+  color: #000;
+  transition: 0.5s;
+}
+.latest #replies i {
+  font-size: 6px;
+  color: #f9be79;
+  margin-right: 10px;
+}
+.latest #replies a {
+  color: #999999;
+}
+.latest #replies a:hover {
+  color: #000;
+  transition: 0.5s;
+}
+.latest #progress i {
+  font-size: 6px;
+  color: #f9be79;
+  margin-right: 10px;
+}
+.latest #resm #res1 {
+  transform: translateX(20px);
+  z-index: 3;
+}
+.latest #resm #res2 {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 2;
+}
+.latest #resm #res3 {
+  transform: translateX(-20px);
+  z-index: 1;
+}
+.latest #resm #res4 {
+  transform: translateX(-40px);
+}
+.latest #list #one {
+  background-color: #2f2e41;
+}
+.latest #list #one a {
+  color: #fff;
+}
+.latest #list li {
+  border: 1px solid #999999;
+}
+.latest #list li i {
+  font-size: 14px;
+}
+.latest #list li:hover {
+  color: #fff;
+  background-color: #2f2e41;
+}
+.latest #list li a {
+  color: #2f2e41;
+}
+.latest #list li a:hover {
+  color: #fff;
+}
+
+.document {
+  background-color: rgba(191, 213, 219, 0.6705882353);
+}
+.document h1 {
+  color: #2f2e41;
+  font-size: 50px;
+  font-weight: bold;
+}
+.document p {
+  color: #2f2e41;
+  font-size: 16px;
+}
+.document #view {
+  background-color: #2f2e41;
+  border: 2px solid #2f2e41;
+}
+
+.most #helpful {
+  font-size: 56px;
+  font-weight: bold;
+  color: #2f2e41;
+}
+.most #mesh {
+  color: #2f2e41;
+}
+
+footer {
+  background-color: #101010;
+}
+footer i {
+  font-size: 12px;
+}
+footer #sosial li {
+  width: 30px;
+  height: 30px;
+  background-color: #4f4848;
+}
+footer #sosial li:hover {
+  background-color: #0d6efd;
+  transition: 1s;
+}
+
+.top {
+  transition: 1s;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.3019607843);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+.top:hover {
+  background-color: #f9be79;
+  color: #fff;
+}
+
+.gear {
+  transition: 1s;
+  position: fixed;
+  right: 25px;
+  top: 150px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */

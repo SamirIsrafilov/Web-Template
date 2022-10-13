@@ -1,0 +1,54 @@
+.sec6{
+    width:85%;
+    height:200px;
+    border-radius: 10px;
+    margin:0 auto;
+    background-color: #f5f8fa;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+    h1{
+        color: #181818;
+        font-size: 47px;
+        font-family:sans-serif;
+        font-weight: bold;
+    }
+    h2{
+        color: #181818;
+        font-size: 16px;
+        font-family:sans-serif;
+        
+        
+    }
+    .now{
+        width:210px;
+        height:50px;
+        
+        border-radius:10px;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        background-color: transparent; 
+        background: linear-gradient(95deg,#059dff 15%,#6549d5 45%,#e33fa1 75%,#fb5343) 95%/200% 100%;
+        a{
+            text-decoration:none;
+            i{
+                color: #fff;
+                font-size:16px;
+                margin-left:10px;
+            }
+            h2{
+            color:#fff;
+            font-size:16px;
+            font-family: sans-serif;
+            }
+     
+        }
+    }
+ 
+}

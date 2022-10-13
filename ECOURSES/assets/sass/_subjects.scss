@@ -1,0 +1,195 @@
+.subjects{
+    width:100%;
+    height:auto;
+    margin-bottom:100px;
+   
+
+    .qutu1{
+        width:255px;
+        height:160px;
+        border-radius:10px;
+       background-size: contain;
+      
+        background-image: url(../img/cat-1.jpg);
+        
+        
+       .reng{
+        width:255px;
+        height:160px;
+        background-color:rgba($color: #000000, $alpha: 0.6);
+        border-radius:10px;
+       
+       }
+       
+    }
+
+
+    .qutu2{
+        width:255px;
+        height:160px;
+        border-radius:10px;
+       background-size: contain;
+      
+        background-image: url(../img/cat-2.jpg);
+        
+        
+       .reng{
+        width:255px;
+        height:160px;
+        background-color:rgba($color: #000000, $alpha: 0.6);
+        border-radius:10px;
+       
+       }
+       
+    }
+
+
+    .qutu3{
+        width:255px;
+        height:160px;
+        border-radius:10px;
+       background-size: contain;
+      
+        background-image: url(../img/cat-3.jpg);
+        
+        
+       .reng{
+        width:255px;
+        height:160px;
+        background-color:rgba($color: #000000, $alpha: 0.6);
+        border-radius:10px;
+       
+       }
+       
+    }
+
+
+
+    .qutu4{
+        width:255px;
+        height:160px;
+        border-radius:10px;
+       background-size: contain;
+      
+        background-image: url(../img/cat-4.jpg);
+        
+        
+       .reng{
+        width:255px;
+        height:160px;
+        background-color:rgba($color: #000000, $alpha: 0.6);
+        border-radius:10px;
+       
+       }
+       
+    }
+
+
+
+    .qutu5{
+        width:255px;
+        height:160px;
+        border-radius:10px;
+       background-size: contain;
+      
+        background-image: url(../img/cat-5.jpg);
+        
+        
+       .reng{
+        width:255px;
+        height:160px;
+        background-color:rgba($color: #000000, $alpha: 0.6);
+        border-radius:10px;
+       
+       }
+       
+    }
+
+
+
+    .qutu6{
+        width:255px;
+        height:160px;
+        border-radius:10px;
+       background-size: contain;
+      
+        background-image: url(../img/cat-6.jpg);
+        
+        
+       .reng{
+        width:255px;
+        height:160px;
+        background-color:rgba($color: #000000, $alpha: 0.6);
+        border-radius:10px;
+       
+       }
+       
+    }
+
+
+
+    .qutu7{
+        width:255px;
+        height:160px;
+        border-radius:10px;
+       background-size: contain;
+      
+        background-image: url(../img/cat-7.jpg);
+        
+        
+       .reng{
+        width:255px;
+        height:160px;
+        background-color:rgba($color: #000000, $alpha: 0.6);
+        border-radius:10px;
+       
+       }
+       
+    }
+
+    .qutu8{
+        width:255px;
+        height:160px;
+        border-radius:10px;
+       background-size: contain;
+      
+        background-image: url(../img/cat-8.jpg);
+        
+        
+       .reng{
+        width:255px;
+        height:160px;
+        background-color:rgba($color: #000000, $alpha: 0.6);
+        border-radius:10px;
+       
+       }
+       
+    }
+
+    
+    
+
+
+
+     
+
+    
+   
+    #subject{
+        color: #ff6600;
+        font-size:20px;
+    }
+
+    #top{
+        color:#44425a;
+        font-size:40px;
+        font-weight: bold;
+    }
+}
+
+
+@media (max-width:1000px){
+    .subjects{
+       padding-top:100px;
+    }
+ }

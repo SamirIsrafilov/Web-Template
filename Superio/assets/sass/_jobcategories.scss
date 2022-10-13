@@ -1,0 +1,39 @@
+.jc-card{
+    height: 110px;
+    border: 1px solid #ecedf2;
+    border-radius: 10px;
+    
+    .icon{
+        width: 70px;
+        height: 70px;
+        background-color: #ecedf2;
+        border:1px solid #ecedf2;
+        
+        border-radius: 10px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        background-color:#2f75d5;
+    }
+    i{
+        width: 70px;
+        height: 70px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+        color: #2f75d5;
+        font-size:25px;
+        &:hover{
+            color: #fff;
+        }
+    }
+    }
+
+    .jb-text{
+        &:hover{
+            color:#2f75d5;
+            cursor: pointer;
+        }
+    }
+}

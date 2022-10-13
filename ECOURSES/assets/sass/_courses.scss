@@ -1,0 +1,83 @@
+.courses{
+    width:100%;
+    height:auto;
+    margin-top:100px;
+    
+
+
+    #student{
+
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        padding:0px;
+        li{
+            list-style:none;
+            i{
+            color: #ff6600;
+            margin-right:5px;
+            }
+           
+            a{
+                text-decoration: none;
+                font-size:13px;
+            }
+        }
+    }
+
+    #design{
+        font-size:20px;
+        font-weight:500;
+        color: #44425a;
+        cursor: pointer;
+        margin-bottom:24px;
+
+        &:hover{
+            text-decoration: underline;
+            color: #ff6600;
+            transition:1s;
+        }
+    }
+
+    #pul{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        padding:0px;
+        border-top:1px solid #6c6a74;
+        padding-top:24px ;
+        li{
+            list-style: none;
+            i{
+                color:#ff6600;
+                margin-right:5px;
+            }
+            a{
+                color: #44425a;
+                font-size:20px;
+                font-weight: 600;
+            }
+
+        }
+    }
+  
+
+
+
+
+    
+    #courses{
+        color: #ff6600;
+        font-size:20px;
+    }
+
+    #popular{
+        color:#44425a;
+        font-size:40px;
+        font-weight: bold;
+    }
+}
+
+

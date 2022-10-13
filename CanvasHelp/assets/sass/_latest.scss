@@ -1,0 +1,135 @@
+.latest{
+
+
+
+
+    
+    #discuss{
+        font-size:56px;
+        font-weight: bold;
+        color: #2f2e41;
+    }
+
+    #creat{
+        color: #333333;
+        border:2px solid #333333;
+        &:hover{
+            color:#fff;
+            background-color: #333333;
+            transition: 0.5s;
+        }
+    }
+
+
+    #jump{
+        font-size: 22px;
+        color: #2f2e41;
+        &:hover{
+            text-decoration: underline;
+            transition: 0.5s;
+        }
+    }
+
+  
+
+    #mins{
+        
+            a{
+                color: #999999;
+                &:hover{
+                
+                    color: #000;
+                    transition:0.5s;
+                }
+            }
+        
+    }
+
+    #replies{
+        
+        i{
+            font-size:6px;
+            color: #f9be79;
+            margin-right:10px;
+        }
+        a{
+            
+            color: #999999;
+            &:hover{
+                
+                color: #000;
+                transition:0.5s;
+            }
+
+        }
+    }
+
+
+    #progress{
+        i{
+            font-size:6px;
+            color: #f9be79;
+            margin-right:10px;
+        }
+    }
+
+
+
+    #resm{
+    
+
+        #res1{
+            transform: translateX(20px);
+            z-index:3;
+           
+        }
+        #res2{
+        position: sticky;
+           z-index: 2; 
+        }
+        #res3{
+            
+            transform: translateX(-20px);
+            z-index: 1;
+        }
+
+
+        #res4{
+            transform: translateX(-40px);
+        }
+    }
+
+
+    #list{
+
+        
+        #one{
+            background-color: #2f2e41;
+            a{
+                color: #fff;
+            }
+        }
+        li{
+            border:1px solid #999999;
+            i{
+                font-size:14px;
+            }
+           
+            &:hover{
+                color: #fff;
+                background-color: #2f2e41;
+                
+            }
+            a{
+                color:#2f2e41;
+
+                &:hover{
+                
+                     color: #fff;
+                }
+            }
+        }
+    }
+
+    
+}

@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Superio</title>
+  <link rel="stylesheet" href="assets/bootsrap/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/sass/style.css" />
+  <link rel="stylesheet" href="assets/font/css/all.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-5" href="#"><img src="assets/img/logo.svg" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Find Jobs
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Employers
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Candidates
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+
+
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+
+
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+        <div class="d-flex">
+          <a class="mx-3 text-decoration-none" type="button">Upload your CV</a>
+          <button class="btn btn-outline-primary me-3" type="button">
+            Login/Register
+          </button>
+          <button class="btn btn-primary" type="button">Job Post</button>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6">
+          <div style="height: 500px" class="d-flex justify-content-center  flex-column">
+            <h1>
+              There Are <span class="text-primary">93,178</span> Postings Here
+              For you!
+            </h1>
+            <p class="text-muted my-5">Find Jobs, Employment & Career Opportunities</p>
+            <div class="input-group mb-3">
+              <span class="input-dec input-group-text"><i class="fa-solid fa-magnifying-glass text-muted"></i></span>
+
+              <input type="text" class="form-control border-start-0" placeholder="Job titles, keywords"
+                aria-label="Username" />
+              <span class="input-dec input-group-text"><i class="fa-solid fa-location-dot text-muted"></i></span>
+              <input type="text" class="form-control border-start-0" placeholder="City or postcode"
+                aria-label="Server" />
+              <input type="button" class="form-control btn btn-primary" value="find jobs" placeholder="Server"
+                aria-label="Server" />
+            </div>
+            <p class="text-muted mt-4">
+              Popular Searches : Designer, Developer, Web, IOS, PHP, Senior,
+              Engineer,
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6">
+          <img src="assets/img/banner-img-1.png" width="500" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="job-categories container mt-5" id="jc">
+    <div class="text-center">
+      <h3 class="fw-semibold">Popular Job Categories</h3>
+      <p class="text-muted">2020 jobs live - 293 added today.</p>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 mt-4">
+        <div class="jc-card d-flex align-items-center">
+          <div class="icon mx-4"><i class="fa-solid fa-coins"></i></div>
+          <div class="jb-text">
+            <h5 class="fw-semibold">Accounting / Finance</h5>
+            <p class="text-muted">(2 open positions)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 mt-4">
+        <div class="jc-card d-flex align-items-center ">
+          <div class="icon mx-4"><i class="fa-solid fa-bullhorn"></i></div>
+          <div class="jb-text">
+            <h5 class="fw-semibold">Marketing</h5>
+            <p class="text-muted">(86 open positions)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 mt-4">
+        <div class="jc-card d-flex align-items-center">
+          <div class="icon mx-4"><i class="fa-solid fa-bezier-curve"></i></div>
+          <div class="jb-text">
+            <h5 class="fw-semibold">Design</h5>
+            <p class="text-muted">(43 open positions)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 mt-4">
+        <div class="jc-card d-flex align-items-center ">
+          <div class="icon mx-4"><i class="fa-solid fa-code"></i></div>
+          <div class="jb-text">
+            <h5 class="fw-semibold">Development</h5>
+            <p class="text-muted">(12 open positions)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 mt-4">
+        <div class="jc-card d-flex align-items-center ">
+          <div class="icon mx-4"><i class="fa-solid fa-address-card"></i></div>
+          <div class="jb-text">
+            <h5 class="fw-semibold">Human Resource</h5>
+            <p class="text-muted">(55 open positions)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 mt-4">
+        <div class="jc-card d-flex align-items-center ">
+          <div class="icon mx-4"><i class="fa-solid fa-rocket"></i></div>
+          <div class="jb-text">
+            <h5 class="fw-semibold">Project Management</h5>
+            <p class="text-muted">(2 open positions)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 mt-4">
+        <div class="jc-card d-flex align-items-center ">
+          <div class="icon mx-4"><i class="fa-solid fa-headphones-simple"></i></div>
+          <div class="jb-text">
+            <h5 class="fw-semibold">Customer Service</h5>
+            <p class="text-muted">(2 open positions)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 mt-4">
+        <div class="jc-card d-flex align-items-center ">
+          <div class="icon mx-4"><i class="fa-solid fa-briefcase-medical"></i></div>
+          <div class="jb-text">
+            <h5 class="fw-semibold">Health and Care</h5>
+            <p class="text-muted">(25 open positions)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 mt-4">
+        <div class="jc-card d-flex align-items-center ">
+          <div class="icon mx-4"><i class="fa-solid fa-car-side"></i></div>
+          <div class="jb-text">
+            <h5 class="fw-semibold">Automotive Jobs</h5>
+            <p class="text-muted">(92 open positions)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured-job container mt-5" id="fj">
+    <div class="text-center">
+      <h3 class="fw-semibold">Featured Jobs</h3>
+      <p class="text-muted">Know your worth and find the job that qualify your life</p>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 mt-4">
+        <div class="fj-card d-flex align-items-center ">
+          <div class="icon mx-5"><img src="assets/img/1-1.png" alt=""></div>
+          <div class="fj-text">
+            <h5 class="fw-semibold">Software Engineer (Android), Libraries <i class="fa-solid fa-bookmark"></i></h5>
+            <ul>
+              <li class="text-muted"><i class="fa-solid fa-briefcase mx-1"></i>Segment</li>
+              <li class="mx-1 text-muted"><i class="fa-solid fa-location-dot mx-1"></i>London, UK</li>
+              <li class="mx-1 text-muted"><i class="fa-solid fa-clock mx-1"></i>11 hours ago</li>
+              <li class="mx-1 text-muted"><i class="fa-solid fa-money-bills mx-1"></i>$35k - $45k</li>
+            </ul>
+            <ul class="reng">
+              <li class="time">Full Time</li>
+              <li class="private">Private</li>
+              <li class="urgent">Urgent</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12  col-md-12 col-lg-12 col-xl-6  mt-4">
+        <div class="fj-card d-flex align-items-center">
+          <div class="icon mx-5"><img src="assets/img/1-2.png" alt=""></div>
+          <div class="fj-text">
+            <h5 class="fw-semibold">Recruiting Coordinator <i class="fa-solid fa-bookmark"></i></h5>
+            <ul>
+              <li class="text-muted"><i class="fa-solid fa-briefcase mx-1"></i>Segment</li>
+              <li class="mx-1 text-muted"><i class="fa-solid fa-location-dot mx-1"></i>London, UK</li>
+              <li class="mx-1 text-muted"><i class="fa-solid fa-clock mx-1"></i>11 hours ago</li>
+              <li class="mx-1 text-muted"><i class="fa-solid fa-money-bills mx-1"></i>$35k - $45k</li>
+            </ul>
+            <ul class="reng">
+              <li class="time">Full Time</li>
+              <li class="private">Private</li>
+              <li class="urgent">Urgent</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 mt-4">
+        <div class="fj-card d-flex align-items-center ">
+          <div class="icon mx-5"><img src="assets/img/1-3.png" alt=""></div>
+          <div class="fj-text">
+            <h5 class="fw-semibold">Product Manager, Studio<i class="fa-solid fa-bookmark"></i></h5>
+            <ul>
+              <li class="text-muted"><i class="fa-solid fa-briefcase mx-1"></i>Segment</li>
+              <li class="mx-1 text-muted"><i class="fa-solid fa-location-dot mx-1"></i>London, UK</li>
+              <li class="mx-1 text-muted"><i class="fa-solid fa-clock mx-1"></i>11 hours ago</li>
+              <li class="mx-1 text-muted"><i class="fa-solid fa-money-bills mx-1"></i>$35k - $45k</li>
+            </ul>
+            <ul class="reng">
+              <li class="time">Full Time</li>
+              <li class="private">Private</li>
+              <li class="urgent">Urgent</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 mt-4">
+        <div class="fj-card d-flex align-items-center ">
+          <div class="icon mx-5"><img src="assets/img/1-4.png" alt=""></div>
+          <div class="fj-text">
+            <h5 class="fw-semibold">Senior Product Designer<i class="fa-solid fa-bookmark"></i></h5>
+            <ul>
+              <li class="text-muted"><i class="fa-solid fa-briefcase mx-1"></i>Segment</li>
+              <li class="mx-1 text-muted"><i class="fa-solid fa-location-dot mx-1"></i>London, UK</li>
+              <li class="mx-1 text-muted"><i class="fa-solid fa-clock mx-1"></i>11 hours ago</li>
+              <li class="mx-1 text-muted"><i class="fa-solid fa-money-bills mx-1"></i>$35k - $45k</li>
+            </ul>
+            <ul class="reng">
+              <li class="time">Full Time</li>
+              <li class="private">Private</li>
+              <li class="urgent">Urgent</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 mt-4">
+        <div class="fj-card d-flex align-items-center ">
+          <div class="icon mx-5"><img src="assets/img/1-5.png" alt=""></div>
+          <div class="fj-text">
+            <h5 class="fw-semibold">Senior Full Stack Engineer, Creator Success <i class="fa-solid fa-bookmark"></i>
+            </h5>
+            <ul>
+              <li class="text-muted"><i class="fa-solid fa-briefcase mx-1"></i>Segment</li>
+              <li class="mx-1 text-muted"><i class="fa-solid fa-location-dot mx-1"></i>London, UK</li>
+              <li class="mx-1 text-muted"><i class="fa-solid fa-clock mx-1"></i>11 hours ago</li>
+              <li class="mx-1 text-muted"><i class="fa-solid fa-money-bills mx-1"></i>$35k - $45k</li>
+            </ul>
+            <ul class="reng">
+              <li class="time">Full Time</li>
+              <li class="private">Private</li>
+              <li class="urgent">Urgent</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 mt-4">
+        <div class="fj-card d-flex align-items-center ">
+          <div class="icon mx-5"><img src="assets/img/1-6.png" alt=""></div>
+          <div class="fj-text">
+            <h5 class="fw-semibold">Software Engineer (Android), Libraries <i class="fa-solid fa-bookmark"></i></h5>
+            <ul>
+              <li class="text-muted"><i class="fa-solid fa-briefcase mx-1"></i>Segment</li>
+              <li class="mx-1 text-muted"><i class="fa-solid fa-location-dot mx-1"></i>London, UK</li>
+              <li class="mx-1 text-muted"><i class="fa-solid fa-clock mx-1"></i>11 hours ago</li>
+              <li class="mx-1 text-muted"><i class="fa-solid fa-money-bills mx-1"></i>$35k - $45k</li>
+            </ul>
+            <ul class="reng">
+              <li class="time">Full Time</li>
+              <li class="private">Private</li>
+              <li class="urgent">Urgent</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="text-center mt-5">
+      <button class="btn btn-primary px-4 py-3">Load More Listing</button>
+    </p>
+  </section>
+
+
+  <div class="customers d-flex flex-column align-items-center justify-content-center ">
+    <div class="text-center my-5">
+      <h3 class="fw-semibold">Testimonials From Our Customers</h3>
+      <p class="text-muted">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor</p>
+    </div>
+
+    <div id="carouselExampleSlidesOnly"
+      class="carousel slide bg-white slayt  d-flex align-items-center justify-content-center justify-content-around"
+      data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+          <h3 class="fs-5 text-primary mx-4 fw-semibold">Good theme</h3>
+          <p class="my-5 lh-base text-muted mx-4">Without JobHunt i'd be homeless, they found me a job and got me<br>
+            sorted out quickly with everything! Can't
+            quite… The Mitech team works<br> really hard to ensure high level of quality</p>
+
+          <div class="d-flex mx-4"> <img src="assets/img/testi-thumb-1.png" alt="">
+            <h4 class="text-muted fs-5 ps-3 pt-2">Nicole Wells<br> <span class="fs-6 text-muted">Web Developer</span>
+            </h4>
+          </div>
+        </div>
+
+        <div class="carousel-item ">
+          <h3 class="fs-5 text-primary mx-4 fw-semibold">Great quality!</h3>
+          <p class="my-5 lh-base text-muted mx-4">Without JobHunt i'd be homeless, they found me a job and got me<br>
+            sorted out quickly with everything! Can't
+            quite… The Mitech team works<br> really hard to ensure high level of quality</p>
+
+          <div class="d-flex mx-4"> <img src="assets/img/testi-thumb-2.png" alt="">
+            <h4 class="text-muted fs-5 ps-3 pt-2">Gabriel Nolan<br> <span class="fs-6 text-muted">Consultant</span></h4>
+          </div>
+        </div>
+
+        <div class="carousel-item ">
+          <h3 class="fs-5 text-primary mx-4 fw-semibold">Awesome Design</h3>
+          <p class="my-5 lh-base text-muted mx-4">Without JobHunt i'd be homeless, they found me a job and got me<br>
+            sorted out quickly with everything! Can't
+            quite… The Mitech team works<br> really hard to ensure high level of quality</p>
+
+          <div class="d-flex mx-4"> <img src="assets/img/testi-thumb-3.png" alt="">
+            <h4 class="text-muted fs-5 ps-3 pt-2">Ashley Jenkins<br> <span class="fs-6 text-muted">Designer</span></h4>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+  </div>
+
+  <div class="container-fluid mencap pb-5">
+    <div class="row">
+      <div class=" col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2 "><img src="assets/img/1-1(1).png" alt=""></div>
+      <div class=" col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2"><img src="assets/img/1-2(1).png" alt=""></div>
+      <div class=" col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2"><img src="assets/img/1-3(1).png" alt=""></div>
+      <div class=" col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2"><img src="assets/img/1-4(1).png" alt=""></div>
+      <div class=" col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2"><img src="assets/img/1-5(1).png" alt=""></div>
+      <div class=" col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2"><img src="assets/img/1-6(1).png" alt=""></div>
+
+    </div>
+
+  </div>
+
+
+  
+  <div class="container my-5">
+    <div class="row">
+      <div class=" col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 "><img src="assets/img/image-2.jpg" alt=""></div>
+      <div class=" col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 px-5">
+        <h2 class="fw-semibold ">Millions of Jobs. Find the one<br> that suits you.</h2>
+
+        <p class="text-muted fs-6 my-4">Search all the open positions on the web. Get your own <br>personalized salary
+          estimate. Read reviews on over 600,000 <br>companies worldwide.</p>
+
+        <h4 class="fs-6 lh-lg"><i class="fa-solid fa-check mx-2 fs-5"></i>Bring to the table win-win survival</h4>
+        <h4 class="fs-6 lh-lg"><i class="fa-solid fa-check mx-2 fs-5"></i>Capitalize on low hanging fruit to identify
+        </h4>
+        <h4 class="fs-6 lh-lg"><i class="fa-solid fa-check mx-2 fs-5"></i>But I must explain to you how all this</h4>
+
+        <button type="button" class="btn btn-primary my-5 px-5 py-3">Get Started</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="articles bg-light">
+    <div class="text-center">
+      <h3 class="fw-semibold my-3">Recent News Articles</h3>
+      <p class="text-muted">Fresh job related news content posted each day.</p>
+    </div>
+
+
+    <div class="container mt-5">
+      <div class="row ">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+          <div class="card kart">
+            <img src="assets/img/news-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <ul>
+                <li class="text-muted fs-6">August 31, 2021</li>
+                <li class="mx-3"><i class="fa-solid fa-circle text-muted "></i></li>
+                <li class="text-muted fs-6">12 Comment</li>
+
+              </ul>
+              <h5 class="card-title">5 Tips For Your Job Interviewss</h5>
+              <p class="card-text text-muted fs-6">A job ravenously while Far much that one rank beheld after
+                outside....</p>
+              <a href="#" class="more ">Read More <i class="fa-solid fa-angle-right fs-6"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+          <div class="card kart">
+            <img src="assets/img/news-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <ul>
+                <li class="text-muted fs-6">August 31, 2021</li>
+                <li class="mx-3"><i class="fa-solid fa-circle text-muted "></i></li>
+                <li class="text-muted fs-6">12 Comment</li>
+
+              </ul>
+              <h5 class="card-title">An Overworked Newspaper Editor</h5>
+              <p class="card-text text-muted fs-6">A job ravenously while Far much that one rank beheld after
+                outside....</p>
+              <a href="#" class="more ">Read More <i class="fa-solid fa-angle-right fs-6"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+          <div class="card kart">
+            <img src="assets/img/news-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <ul>
+                <li class="text-muted fs-6">August 31, 2021</li>
+                <li class="mx-3"><i class="fa-solid fa-circle text-muted "></i></li>
+                <li class="text-muted fs-6">12 Comment</li>
+
+              </ul>
+              <h5 class="card-title">Attract Sales And Profits</h5>
+              <p class="card-text text-muted fs-6">A job ravenously while Far much that one rank beheld after
+                outside....</p>
+              <a href="#" class="more ">Read More <i class="fa-solid fa-angle-right fs-6"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container my-5">
+    <div class="row">
+      <div class=" col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 "><img src="assets/img/mobile-app.png" alt=""></div>
+      <div class=" col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 px-5">
+        <a href="#" class="fs-5 fw-semibold "> DOWNLOAD & ENJOY</a>
+        <h2 class="fw-semibold fs-1 my-3">Get the Superio Job<br>
+          Search App</h2>
+
+        <p class="text-muted fs-6 my-4">Search through millions of jobs and find the right fit. Simply<br>
+          swipe right to apply.</p>
+        <div class="store my-5">
+          <img src="assets/img/apple.png" alt="">
+          <img src="assets/img/google.png" alt="">
+        </div>
+
+
+
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+  <div class="container">
+    <footer class="row  py-5 my-5 border-top border-bottom ">
+      <div class=" col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 mb-3">
+
+        <img src="assets/img/logo.svg" alt="">
+        <h3 class="fs-5 fw-semibold my-4">Call us <br>
+          <span class="text-primary">123 456 7890</span>
+        </h3>
+        <p class="text-muted fs-6 lh-lg">329 Queensberry Street, North Melbourne VIC<br>
+          3051, Australia.<br>
+          support@superio.com</p>
+      </div>
+
+      <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 mb-3">
+        <h5 class="fw-semibold">For Candidates</h5>
+        <ul class="nav flex-column mt-4">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Browse Jobs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Browse Categories</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Candidate Dashboard</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Job Alerts</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">My Bookmarks</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 mb-3">
+        <h5 class="fw-semibold">For Employers</h5>
+        <ul class="nav flex-column mt-4">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Browse Candidates</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Employer Dashboard</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Add Job</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Job Packages</a></li>
+
+        </ul>
+      </div>
+
+      <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 mb-3">
+        <h5 class="fw-semibold">About Us</h5>
+        <ul class="nav flex-column mt-4">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Job Page</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Job Page Alternative</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Resume Page</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 mb-3">
+        <h5 class="fw-semibold">Helpful Resources</h5>
+        <ul class="nav flex-column mt-4">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Site Map</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms of Use</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy Center</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Security Center</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"> Accessibility Center</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center  my-5 ">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap" />
+          </svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">© 2021 Superio. All Right Reserved.</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex sosial">
+        <li class="mx-3"><a class="text-muted" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li class="mx-3"><a class="text-muted" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        <li class="mx-3"><a class="text-muted" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li class="mx-3"><a class="text-muted" href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+      </ul>
+    </footer>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="top" href="#"><i class="fa-solid fa-angle-up"></i></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

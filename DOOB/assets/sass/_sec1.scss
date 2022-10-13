@@ -1,0 +1,194 @@
+.sec1{
+    width:100%;
+    height:310px;
+    margin-top:100px;
+    
+   margin-bottom: 120px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    justify-content:space-evenly;
+   
+    
+    
+    }
+   
+    .design{
+        width:390px;
+        height:310px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        justify-content: space-around;
+        &:hover{
+            width:390px;
+            height:310px;
+            margin-bottom:10px;
+            transition:0.5s;
+        }
+        .icon{
+            width:90px;
+            height:90px;
+            border-radius: 45px;
+            background-color:#059dff0f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            i{
+                color:#059dff;
+                font-size:40px;
+           
+               
+            }
+
+        }
+
+        h1{
+            color: #181818;
+            font-size:24px;
+            font-family: sans-serif;
+            font-weight:bold;
+           a{
+               color:#181818;
+            text-decoration: none;
+            transition: 0.5s;
+               &:hover{
+                  
+                   color:#059dff;
+               }
+           }
+        }
+        p{
+            color: #65676b;
+            font-size:18px;
+            font-family: sans-serif;
+            line-height: 30px;
+            
+        }
+    }
+
+    .creative{
+        width:390px;
+        height:310px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        justify-content: space-around;
+        &:hover{
+            width:390px;
+            height:310px;
+            margin-bottom:10px;
+            transition:0.5s;
+        }
+        .icon{
+            width:90px;
+            height:90px;
+            border-radius: 45px;
+            background-color:#fb53431a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            i{
+                color:#fb5343;
+                font-size:40px;
+           
+               
+            }
+
+        }
+
+        h1{
+            color: #181818;
+            font-size:24px;
+            font-family: sans-serif;
+            font-weight:bold;
+           a{
+               color:#181818;
+            text-decoration: none;
+            transition: 0.5s;
+               &:hover{
+                  
+                   color:#059dff;
+               }
+           }
+        }
+        p{
+            color: #65676b;
+            font-size:18px;
+            font-family: sans-serif;
+            line-height: 30px;
+            
+        }
+    }
+
+
+    .app{
+        width:390px;
+        height:310px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        justify-content: space-around;
+        &:hover{
+            width:390px;
+            height:310px;
+            margin-bottom:10px;
+            transition:0.5s;
+        }
+       
+        .icon{
+            width:90px;
+            height:90px;
+            border-radius: 45px;
+            background-color:#6549d51f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            i{
+                color:#6549d5;
+                font-size:40px;
+           
+               
+            }
+
+        }
+
+        h1{
+            color: #181818;
+            font-size:24px;
+            font-family: sans-serif;
+            font-weight:bold;
+           a{
+               color:#181818;
+            text-decoration: none;
+            transition: 0.5s;
+               &:hover{
+                  
+                   color:#059dff;
+               }
+           }
+        }
+        p{
+            color: #65676b;
+            font-size:18px;
+            font-family: sans-serif;
+            line-height: 30px;
+            
+        }
+    }
+
+    .xett{
+        width:1300px;
+        height:1px;
+        background-color: #65676b;
+        margin: 0 auto;
+        
+    }
+
+    

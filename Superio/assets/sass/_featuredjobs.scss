@@ -1,0 +1,95 @@
+.fj-card{
+    height: 150px;
+    border: 1px solid #ecedf2;
+    border-radius: 10px;
+    .icon{
+        width: 60px;
+        height: 60px;
+        
+        border-radius: 10px;
+        img{
+            width: 60px;
+        height: 60px;
+        }
+    }
+    .fj-text{
+
+        ul{
+            display:flex;
+         padding: 0;
+         
+           
+            li{
+                list-style: none;
+                font-size:14px;
+                
+            }
+        }
+
+        .reng{
+            width: 300px;
+            height: 30px;
+            
+            li{
+                width:90px;
+                height:25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               
+                
+                border-radius:13px;
+             
+               
+               
+            }
+            .time{
+                font-size:12px;
+                font-weight: 600;
+                background-color: rgba(25, 103, 210, 0.15);
+                color: #1967d2;
+            }
+            .private{
+                font-size:12px;
+                font-weight: 600;
+                background-color: rgba(52, 168, 83, 0.15);
+                color: #34A853;
+                margin-left:15px;
+                margin-right: 15px;
+
+            }
+            .urgent{
+                font-size:12px;
+                font-weight: 600;
+                background-color: rgba(249, 171, 0, 0.15);
+                color: #F9AB00;
+               
+            }
+        }
+
+        h5{
+            width: 460px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            &:hover{
+                color: #1967d2;
+            }
+            i{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                width:40px;
+                height: 40px;
+                border-radius: 20px;
+           
+               &:hover{
+                   background-color: #ecedf2;
+               }
+            }
+        }
+    }
+}
